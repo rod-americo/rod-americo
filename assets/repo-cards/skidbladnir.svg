@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="156" viewBox="0 0 420 156" role="img" aria-labelledby="title desc">
+  <title id="title">Skidbladnir repository card</title>
+  <desc id="desc">Project scaffolder and structural retrofit tool for repository governance.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect x="1" y="1" width="418" height="154" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="6" height="154" rx="3" fill="#8250df"/>
+  <text x="24" y="36" fill="#24292f" font-size="21" font-weight="700">Skidbladnir</text>
+  <text x="24" y="61" fill="#57606a" font-size="13">Project scaffolding and retrofit</text>
+  <text x="24" y="84" fill="#24292f" font-size="13">Repository structure, conventions, scope control,</text>
+  <text x="24" y="103" fill="#24292f" font-size="13">and operational defaults for maintainable projects.</text>
+  <rect x="24" y="122" width="66" height="22" rx="4" fill="#f1eefe"/>
+  <text x="36" y="137" fill="#6639ba" font-size="11" font-weight="600">Python</text>
+  <rect x="98" y="122" width="56" height="22" rx="4" fill="#f1eefe"/>
+  <text x="111" y="137" fill="#6639ba" font-size="11" font-weight="600">Tooling</text>
+  <rect x="162" y="122" width="44" height="22" rx="4" fill="#f1eefe"/>
+  <text x="176" y="137" fill="#6639ba" font-size="11" font-weight="600">MIT</text>
+  <text x="332" y="137" fill="#57606a" font-size="11" font-weight="600">PUBLIC</text>
+</svg>

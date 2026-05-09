@@ -23,20 +23,38 @@ My work focuses on software that makes clinical imaging workflows more structure
 
 The common thread is not generic software development. It is domain-heavy engineering for environments where data quality, traceability, latency, interoperability, and clinical context matter.
 
-## Selected Open Work
+## Featured Public Work
 
-| Repository | Scope | Stack |
-| --- | --- | --- |
-| [Heimdallr](https://github.com/rod-americo/Heimdallr) | Open-source radiology MLOps infrastructure for DICOM intake, study normalization, TotalSegmentator-based structuring, and deterministic quantitative outputs. | Python, DICOM, medical imaging |
-| [PossoContrastar](https://github.com/rod-americo/PossoContrastar) | White-label clinical decision-support app for contrast-media guidelines, calculators, restricted-document RAG, and protocol governance. | Python, clinical decision support |
-| [Skidbladnir](https://github.com/rod-americo/Skidbladnir) | Project scaffolder and structural retrofit tool for repositories that need clear scope, governance, and operational conventions. | Python, developer tooling |
-| [Skuld](https://github.com/rod-americo/Skuld) | Local registry-based CLI for tracking, inspecting, and operating selected systemd and launchd services. | Python, local infrastructure |
-| [md-to-pdf](https://github.com/rod-americo/md-to-pdf) | Markdown-to-PDF generator with versioned white/black-label templates and support for private local templates. | JavaScript, document automation |
-| [mCockpitExternalViewerBridge](https://github.com/rod-americo/mCockpitExternalViewerBridge) | Proxy for redirecting DICOM viewer calls from mCockpit to external viewing workflows. | C#, DICOM viewer integration |
+<p align="left">
+  <a href="https://github.com/rod-americo/Heimdallr">
+    <img alt="Heimdallr repository card" width="400" src="./assets/repo-cards/heimdallr.svg">
+  </a>
+  <a href="https://github.com/rod-americo/PossoContrastar">
+    <img alt="PossoContrastar repository card" width="400" src="./assets/repo-cards/posso-contrastar.svg">
+  </a>
+  <a href="https://github.com/rod-americo/Skidbladnir">
+    <img alt="Skidbladnir repository card" width="400" src="./assets/repo-cards/skidbladnir.svg">
+  </a>
+  <a href="https://github.com/rod-americo/Skuld">
+    <img alt="Skuld repository card" width="400" src="./assets/repo-cards/skuld.svg">
+  </a>
+</p>
+
+Additional public tools include [md-to-pdf](https://github.com/rod-americo/md-to-pdf), a versioned Markdown-to-PDF generator, and [mCockpitExternalViewerBridge](https://github.com/rod-americo/mCockpitExternalViewerBridge), a DICOM viewer integration bridge.
 
 ## Technical Positioning
 
 I am most interested in the layer that usually decides whether healthcare AI and automation work in practice: the infrastructure beneath the interface.
+
+```mermaid
+flowchart LR
+    A["Clinical imaging workflows"] --> B["PACS / RIS / DICOM"]
+    B --> C["Ingestion and normalization"]
+    C --> D["Structured imaging outputs"]
+    D --> E["Protocol-aware decision support"]
+    D --> F["AI-ready datasets and analytics"]
+    C --> G["Operational feedback loops"]
+```
 
 That includes data ingestion, naming conventions, identifiers, retries, queues, auditability, segmentation outputs, local runtime behavior, protocol governance, and the operational feedback loops around them. In clinical systems, these details are not implementation trivia. They determine whether a tool can be trusted, repeated, maintained, and integrated.
 

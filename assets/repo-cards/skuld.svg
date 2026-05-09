@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="156" viewBox="0 0 420 156" role="img" aria-labelledby="title desc">
+  <title id="title">Skuld repository card</title>
+  <desc id="desc">Local registry-based CLI for selected systemd and launchd services.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect x="1" y="1" width="418" height="154" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="6" height="154" rx="3" fill="#bf8700"/>
+  <text x="24" y="36" fill="#24292f" font-size="21" font-weight="700">Skuld</text>
+  <text x="24" y="61" fill="#57606a" font-size="13">Local service operations</text>
+  <text x="24" y="84" fill="#24292f" font-size="13">Registry-based CLI for tracking, inspecting, and</text>
+  <text x="24" y="103" fill="#24292f" font-size="13">operating selected systemd and launchd services.</text>
+  <rect x="24" y="122" width="66" height="22" rx="4" fill="#fff8c5"/>
+  <text x="36" y="137" fill="#7d5f00" font-size="11" font-weight="600">Python</text>
+  <rect x="98" y="122" width="80" height="22" rx="4" fill="#fff8c5"/>
+  <text x="111" y="137" fill="#7d5f00" font-size="11" font-weight="600">Operations</text>
+  <rect x="186" y="122" width="44" height="22" rx="4" fill="#fff8c5"/>
+  <text x="200" y="137" fill="#7d5f00" font-size="11" font-weight="600">MIT</text>
+  <text x="332" y="137" fill="#57606a" font-size="11" font-weight="600">PUBLIC</text>
+</svg>
