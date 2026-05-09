@@ -6,6 +6,7 @@ I work at the intersection of clinical practice, imaging infrastructure, automat
 
 <p align="left">
   <a href="https://www.linkedin.com/in/rodrigoamerico"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rodrigoamerico-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:rodrigoamerico@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-rodrigoamerico%40gmail.com-BB001B?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://github.com/rod-americo?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/GitHub-public%20repositories-24292F?style=flat-square&logo=github&logoColor=white"></a>
   <img alt="Focus" src="https://img.shields.io/badge/focus-radiology%20systems-2F4858?style=flat-square">
   <img alt="Location" src="https://img.shields.io/badge/Brasilia-DF%2C%20Brazil-3A7D44?style=flat-square">
@@ -77,4 +78,5 @@ Public repositories here are intentionally selective. Some work remains private 
 ## Contact
 
 - LinkedIn: [linkedin.com/in/rodrigoamerico](https://www.linkedin.com/in/rodrigoamerico)
+- Email: [rodrigoamerico@gmail.com](mailto:rodrigoamerico@gmail.com)
 - GitHub: [github.com/rod-americo](https://github.com/rod-americo)
