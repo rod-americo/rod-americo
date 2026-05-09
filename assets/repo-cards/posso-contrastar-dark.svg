@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="156" viewBox="0 0 420 156" role="img" aria-labelledby="title desc">
+  <title id="title">PossoContrastar repository card</title>
+  <desc id="desc">Clinical decision-support app for contrast-media guidelines and protocol governance.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect x="1" y="1" width="418" height="154" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="6" height="154" rx="3" fill="#3fb950"/>
+  <text x="24" y="36" fill="#e6edf3" font-size="21" font-weight="700">PossoContrastar</text>
+  <text x="24" y="61" fill="#8b949e" font-size="13">Clinical decision support</text>
+  <text x="24" y="84" fill="#c9d1d9" font-size="13">Contrast-media guidelines, calculators, restricted</text>
+  <text x="24" y="103" fill="#c9d1d9" font-size="13">document RAG, and protocol governance.</text>
+  <rect x="24" y="122" width="66" height="22" rx="4" fill="#173b24"/>
+  <text x="36" y="137" fill="#7ee787" font-size="11" font-weight="600">Python</text>
+  <rect x="98" y="122" width="70" height="22" rx="4" fill="#173b24"/>
+  <text x="111" y="137" fill="#7ee787" font-size="11" font-weight="600">Clinical</text>
+  <rect x="176" y="122" width="44" height="22" rx="4" fill="#173b24"/>
+  <text x="190" y="137" fill="#7ee787" font-size="11" font-weight="600">MIT</text>
+  <text x="332" y="137" fill="#8b949e" font-size="11" font-weight="600">PUBLIC</text>
+</svg>

@@ -27,16 +27,28 @@ The common thread is not generic software development. It is domain-heavy engine
 
 <p align="left">
   <a href="https://github.com/rod-americo/Heimdallr">
-    <img alt="Heimdallr repository card" width="400" src="./assets/repo-cards/heimdallr.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-cards/heimdallr-dark.svg">
+      <img alt="Heimdallr repository card" width="400" src="./assets/repo-cards/heimdallr-light.svg">
+    </picture>
   </a>
   <a href="https://github.com/rod-americo/PossoContrastar">
-    <img alt="PossoContrastar repository card" width="400" src="./assets/repo-cards/posso-contrastar.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-cards/posso-contrastar-dark.svg">
+      <img alt="PossoContrastar repository card" width="400" src="./assets/repo-cards/posso-contrastar-light.svg">
+    </picture>
   </a>
   <a href="https://github.com/rod-americo/Skidbladnir">
-    <img alt="Skidbladnir repository card" width="400" src="./assets/repo-cards/skidbladnir.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-cards/skidbladnir-dark.svg">
+      <img alt="Skidbladnir repository card" width="400" src="./assets/repo-cards/skidbladnir-light.svg">
+    </picture>
   </a>
   <a href="https://github.com/rod-americo/Skuld">
-    <img alt="Skuld repository card" width="400" src="./assets/repo-cards/skuld.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-cards/skuld-dark.svg">
+      <img alt="Skuld repository card" width="400" src="./assets/repo-cards/skuld-light.svg">
+    </picture>
   </a>
 </p>
 
@@ -45,16 +57,6 @@ Additional public tools include [md-to-pdf](https://github.com/rod-americo/md-to
 ## Technical Positioning
 
 I am most interested in the layer that usually decides whether healthcare AI and automation work in practice: the infrastructure beneath the interface.
-
-```mermaid
-flowchart LR
-    A["Clinical imaging workflows"] --> B["PACS / RIS / DICOM"]
-    B --> C["Ingestion and normalization"]
-    C --> D["Structured imaging outputs"]
-    D --> E["Protocol-aware decision support"]
-    D --> F["AI-ready datasets and analytics"]
-    C --> G["Operational feedback loops"]
-```
 
 That includes data ingestion, naming conventions, identifiers, retries, queues, auditability, segmentation outputs, local runtime behavior, protocol governance, and the operational feedback loops around them. In clinical systems, these details are not implementation trivia. They determine whether a tool can be trusted, repeated, maintained, and integrated.
 
